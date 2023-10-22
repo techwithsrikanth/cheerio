@@ -73,10 +73,7 @@ $.html();
 //=> <html><head></head><body><ul id="fruits">...</ul></body></html>
 
 
-const $ = cheerio.load('<html><body><h1>Hello, world!</h1></body></html>');
 
-console.log($('h1').text());
-// Output: Hello, world!
 ```
 
 ### Selectors
